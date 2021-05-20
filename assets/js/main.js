@@ -166,8 +166,8 @@ cli.addEventListener('click', ()=>{
     const cliBox = new WinBox({
         title:'ZiaCodes~:$|',
         background: '#00aa00',
-        width: '340px',
-        height: '550px',
+        width: '300px',
+        height: '450px',
         left: 0,
         bottom:0,
         url:'https://terminal7866.000webhostapp.com/',
