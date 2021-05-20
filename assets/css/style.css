@@ -171,7 +171,7 @@ p{
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .container .icon {
         visibility: hidden;
     }
@@ -208,9 +208,6 @@ p{
      opacity: 1;
  }
 @media screen and (max-width: 650px) {
-    body{
-        overflow-x: hidden;
-    }
     .low{
         display: flex;
         width: auto;
