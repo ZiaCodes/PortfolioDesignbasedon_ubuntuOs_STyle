@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+:root{
+    --text-color: #00aa00;
+}
+body{
+    background-color: #ff9d00;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23ff9d00' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23fb8d17' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23f47d24' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23ed6e2d' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23e35f34' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23d85239' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23cc453e' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23be3941' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23b02f43' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23a02644' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23901e44' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23801843' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%236f1341' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%235e0f3d' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%234e0c38' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%233e0933' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%232e062c' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23210024' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.wb-body{
+    background-color: #450B2B;
+}
+.hidden{
+    display: none;
+}
+.container{
+    background-color: #1C1C1B;
+    color: white;
+    width: 100%;
+}
+.container .panel-up ul{
+    display: flex;
+    list-style: none;
+}
+.container .panel-up ul .icon-wifi{
+    position: absolute;
+    left:85%;
+}
+.container .panel-up ul .icon-volume{
+    position: absolute;
+    left:88%;
+}
+.container .panel-up ul .icon-mic{
+    position: absolute;
+    left:91%;
+}
+.container .panel-up ul .icon-home{
+    position: absolute;
+    left:94%;
+}
+.container .panel-up ul .icon-down{
+    position: absolute;
+    left:97%;
+}
+.icon{
+    margin: 0 20px 0;
+}
+.icon:hover{
+    color: #00aa00;
+}
+#center{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+#activities,#terminal{
+    margin: 0 15px 0;
+}
+main{
+    position: absolute;
+    width: 60px;
+    height: 100vh;
+    background-color: #1C1C1B;
+	opacity: 0.7;
+}
+main ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+main ul li{
+    padding: 2px;
+    margin: 0px 10px 0;
+}
+main ul li a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+main ul li .menu{
+    position: absolute;
+    bottom: 5%;
+}
+main ul li a:hover{
+    color: var(--text-color);
+}
+h2{
+    color: var(--text-color);
+}
+h3{
+    margin-bottom: 10px;
+}
+
+p{
+    margin: 20px 0;
+    color: white;
+}
+.cursor{
+    font-weight:700;
+    font-size: 50px;
+    margin-top: 20px;
+    animation: 1s blink step-end infinite;
+} 
+@keyframes blink {
+    from,to{
+        color: transparent;
+    }
+    50%{
+        color: var(--text-color);
+    }
+}
+
+.fa-terminal{
+    animation: 1s blink-slow step-end infinite;
+}
+@keyframes blink-slow {
+    from,to{
+        color: transparent;
+    }
+    50%{
+        color: var(--text-color);
+    }
+}
+
+/* Apps icons Styling*/
+.introtext{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    transform: translate(-5%,-6%);
+}
+.introtext ul{
+    list-style: none;
+}
+.introtext ul li{
+    justify-content: space-around;
+    padding: 10px;
+}
+
+/*Social Media Apps*/
+.header{
+    position: absolute;
+    left: 11%;
+    top: 10%;
+    transform: translate(-6%,-5%);
+}
+.header ul{
+    list-style: none;
+}
+.header ul li{
+    justify-content: space-around;
+    padding: 10px;
+}
+.low{
+    position: absolute;
+    display: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@media screen and (max-width: 700px) {
+    .container .icon {
+        visibility: hidden;
+    }
+    .container #center{
+        display: none;
+    }
+    .introtext{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+  }
+.pic{
+      display: none;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      margin-top: -150px;
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      background-color: #3a3a3a;
+      box-shadow: -6px -6px 2px #1C1C1B;
+  }
+ .pic img{
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     width: 180px;
+     height: 180px;
+     opacity: 1;
+ }
+@media screen and (max-width: 650px) {
+    body{
+        overflow-x: hidden;
+    }
+    .low{
+        display: flex;
+        width: auto;
+        color: #ffffff;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .pic{
+        display: flex;
+        animation-name: animi;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes animi {
+        0%{
+            box-shadow:  6px -6px 2px #1C1C1B; 
+        }
+        50%{
+            box-shadow:  -6px 6px 2px #1C1C1B;
+        }
+        100%{
+            box-shadow:  6px -6px 2px #1C1C1B;
+        } 
+    }
+    
+}
+.panel-up li .fa-caret-down:hover{
+        color: #00aa00;
+}
