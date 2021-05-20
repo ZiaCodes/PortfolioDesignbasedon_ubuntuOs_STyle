@@ -207,7 +207,7 @@ p{
      height: 180px;
      opacity: 1;
  }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 850px) {
     .low{
         display: flex;
         width: auto;
