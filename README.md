@@ -64,3 +64,6 @@
 
 ---
 
+
+* You can clone the repo into your local machine and modify according to your needs. NO need to give credit or licence just copy and use it as per your need.
+* Star the ripo if you like it.
