@@ -41,11 +41,11 @@
 </p>
   <p align="center">
   <a href="#">
-    <img src="https://raw.githubusercontent.com/ZiaCodes/Linux_cli/main/assets/img/template/mobile-1.jpg" alt="Logo" width="450">
+    <img src="https://raw.githubusercontent.com/ZiaCodes/Linux_cli/main/assets/img/template/mobile-1.jpg" alt="Logo" width="250">
   </a>
-   <img src="https://raw.githubusercontent.com/ZiaCodes/Linux_cli/main/assets/img/template/mobile.jpg" alt="Logo" width="450">
+   <img src="https://raw.githubusercontent.com/ZiaCodes/Linux_cli/main/assets/img/template/mobile.jpg" alt="Logo" width="250">
   </a>
-   <img src="https://raw.githubusercontent.com/ZiaCodes/Linux_cli/main/assets/img/template/mobile-3.jpg" alt="Logo" width="450">
+   <img src="https://raw.githubusercontent.com/ZiaCodes/Linux_cli/main/assets/img/template/mobile-3.jpg" alt="Logo" width="250">
   </a>
   </p>
 
