@@ -1,8 +1,6 @@
 <h3 align="center">Portfolio based on Ubuntu OS</h3>
 
   <p align="center">
-    Web based Application to help people find essential nearby
-    <br />
     <a href="https://ziacodes-terminal.netlify.app/">View Demo</a>
     ·
     <a href="#">Report Bug</a>
