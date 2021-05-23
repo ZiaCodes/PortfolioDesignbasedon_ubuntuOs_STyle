@@ -1,7 +1,7 @@
 <h3 align="center">Portfolio based on Ubuntu OS</h3>
 
   <p align="center">
-    <a href="https://ziacodes-terminal.netlify.app/">View Demo</a>
+    <a href="https://ziacodes-terminal.netlify.app/" target="_blank" >View Demo</a>
     ·
     <a href="#">Report Bug</a>
     ·
