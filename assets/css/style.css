@@ -166,12 +166,12 @@ p{
     position: absolute;
     display: none;
     left: 50%;
-    top: 50%;
+    top: 55%;
     transform: translate(-50%, -50%);
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
     .container .icon {
         visibility: hidden;
     }
@@ -191,7 +191,7 @@ p{
       left: 50%;
       top: 50%;
       transform: translate(-50%,-50%);
-      margin-top: -150px;
+      margin-top: -110px;
       border-radius: 50%;
       width: 200px;
       height: 200px;
@@ -207,10 +207,15 @@ p{
      height: 180px;
      opacity: 1;
  }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 650px) {
+    body{
+        overflow-x: hidden;
+    }
     .low{
         display: flex;
-        width: auto;
+        width: 100%;
+        text-align: center;
+        justify-content:center;
         color: #ffffff;
         font-family: 'Ubuntu', sans-serif;
     }
